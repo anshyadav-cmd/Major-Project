@@ -49,8 +49,8 @@ import lxml.html
 GOOGLE_ACCOUNTS_BASE_URL = 'https://accounts.google.com'
 REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
-GOOGLE_CLIENT_ID = '167142077948-iv5s18ni5gf614433m7ajicu1go0oebd.apps.googleusercontent.com'
-GOOGLE_CLIENT_SECRET = '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'
+GOOGLE_CLIENT_ID = ''
+GOOGLE_CLIENT_SECRET = ''
 GOOGLE_REFRESH_TOKEN = None
 
 
@@ -171,7 +171,4 @@ if __name__ == '__main__':
         print('Set the following as your GOOGLE_REFRESH_TOKEN:', refresh_token)
         exit()
 
-    send_mail('rathoreanimesh0@gmail.com', 'anshyadav4244@gmail.com',
-              'A mail from you from Python',
-              '<b>A mail from you from Python</b><br><br>' +
-              'So happy to hear from you!')
+    send_mail("testing")
